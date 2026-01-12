@@ -30,6 +30,8 @@ Generic HTML5 Video AutoPlay Bookmarklet for personal automation.
 | :--- | :--- | :--- |
 | **Toggle ON/OFF** | `Enter` | 스크립트 활성/비활성 토글 |
 | **Terminate** | `Shift + Enter` | 스크립트 완전 종료 및 메모리 해제 |
+| **UI** | 재생시간 표시 | 브라우저 탭을 통한 실시간 진도율 모니터링 기능 탑재 |
+
 
 ---
 
