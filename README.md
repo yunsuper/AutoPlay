@@ -1,4 +1,9 @@
 # 🚀 AutoPlay (v1.0.1)
+
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Language](https://img.shields.io/badge/language-JavaScript-yellow)
+
 ### (video-autoplay-bookmarklet)
 
 Generic HTML5 Video AutoPlay Bookmarklet for personal automation.
