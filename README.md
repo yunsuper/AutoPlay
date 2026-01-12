@@ -51,18 +51,6 @@ Generic HTML5 Video AutoPlay Bookmarklet for personal automation.
 
 ---
 
-## 🛠️ Troubleshooting (문제 해결)
-
-### 탭 제목에 퍼센트(%)가 나타나지 않고 작동하지 않나요?
-사이트의 보안 벽(CORS)이 높은 경우, 스크립트가 영상이 들어있는 프레임(Iframe)을 찾지 못할 수 있습니다. 이때는 아래 단계를 따르세요.
-
-1. `F12`를 눌러 개발자 도구를 열고 **Console** 탭으로 이동합니다.
-2. 콘솔 상단의 `top`이라고 적힌 **드롭다운 메뉴(JavaScript Context)**를 클릭합니다.
-3. 목록에서 비디오 플레이어 관련 항목(예: `index.html` 또는 `brightcove` 포함 항목)으로 변경합니다.
-4. 그 상태에서 코드를 다시 입력하거나 북마크를 실행하세요.
-
----
-
 ## 🛠 Changelog (업데이트 기록)
 
 ### v1.0.1
