@@ -42,7 +42,24 @@ Generic HTML5 Video AutoPlay Bookmarklet for personal automation.
 3. **Activate**: Open the target video page and click the bookmark.
    (영상이 있는 페이지에서 북마크를 클릭하여 스크립트를 로드합니다.)
 4. **Control**: Use `Enter` to start/stop, and `Shift + Enter` to exit.
-   (`Enter`로 시작/정지하고, 업무가 끝나면 `Shift + Enter`로 종료합니다.)
+   (`Enter`로 시작/정지하고, 업무가 끝나면 `Shift + Enter`로 종료합니다.)   
+
+---
+
+> [!IMPORTANT]
+> **페이지 새로고침 시**: 영상이 다음 강의로 넘어가거나 페이지를 새로고침하면 브라우저 보안 정책상 스크립트가 초기화됩니다. 이 경우 **다시 한번 북마크를 클릭하고 `Enter`를 입력**해 주세요.
+
+---
+
+## 🛠️ Troubleshooting (문제 해결)
+
+### 탭 제목에 퍼센트(%)가 나타나지 않고 작동하지 않나요?
+사이트의 보안 벽(CORS)이 높은 경우, 스크립트가 영상이 들어있는 프레임(Iframe)을 찾지 못할 수 있습니다. 이때는 아래 단계를 따르세요.
+
+1. `F12`를 눌러 개발자 도구를 열고 **Console** 탭으로 이동합니다.
+2. 콘솔 상단의 `top`이라고 적힌 **드롭다운 메뉴(JavaScript Context)**를 클릭합니다.
+3. 목록에서 비디오 플레이어 관련 항목(예: `index.html` 또는 `brightcove` 포함 항목)으로 변경합니다.
+4. 그 상태에서 코드를 다시 입력하거나 북마크를 실행하세요.
 
 ---
 
